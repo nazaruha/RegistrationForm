@@ -1,8 +1,6 @@
 ﻿//declearing html elements
-const imgDiv = document.querySelector('.profile-pic-div');
 const img = document.querySelector('#photo');
 const file = document.querySelector('#photo-file');
-const btnPhotoUpload = document.querySelector('#btn-photo-upload');
 
 //uploading photo
 file.addEventListener('change', function() {
